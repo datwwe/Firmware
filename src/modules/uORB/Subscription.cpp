@@ -73,7 +73,7 @@ bool Subscription::subscribe()
 					_last_generation = curr_gen - q_size;
 
 				} else {
-					_last_generation = 0;
+					_last_generation = curr_gen;
 				}
 
 				return true;
